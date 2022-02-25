@@ -1,11 +1,15 @@
 
-/* .trybewarts-login {
-  display: flex;
-  justify-content: flex-end; */
 
 .header {
   display: flex;
   background-color: rgb(50, 167, 145);
+  justify-content: space-around;
+  align-items: center;
+}
+.trybewarts-login {
+  display: flex;
+  /* justify-content: flex-end; */
+
 }
 
 .trybewarts-header-logo {

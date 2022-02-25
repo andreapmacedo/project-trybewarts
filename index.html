@@ -8,16 +8,19 @@
   <link rel="stylesheet" href="style.css">
   <title>Trybewarts</title>
 </head>
+
 <body>
 
   <header class="header">
     <img class="trybewarts-header-logo" src="images/trybewarts-header-logo.svg">
-    <h1>Trybewarts</h1>
+    <h1 id="trybewarts-header-title">Trybewarts</h1>
     <form class="trybewarts-login">
-    <input id="email" required type="email" name="email" placeholder="Email">
-    <input id="senha" required type="password" name="password" placeholder="Senha">
-    <button id="loginBtn">Entrar</button>
-  </form>
+      <!-- <input id="email" required type="email" name="email" placeholder="Email"> -->
+      <input id="email" required type="text" name="email" placeholder="Email">
+      <!-- <input id="senha" required type="password" name="password" placeholder="Senha"> -->
+      <input id="senha" required type="text" name="password" placeholder="Senha">
+      <button id="loginBtn">Entrar</button>
+    </form>
   </header>
   <main>
     <form id="evaluation-form" action="GET">
@@ -25,9 +28,10 @@
       <input id="input-name" required type="text" name="nome" placeholder="Nome">
       <input id="input-lastname" required type="text" name="ultimoNome" placeholder="Sobrenome">
       <input id="input-email" type="email" name="email" placeholder="Email">
+      <select name="text" value="Gitnória" id="gitnoria-house"></select>
     </form>
   </main>
-  
   <script src="script.js"></script>
 </body>
+
 </html>
