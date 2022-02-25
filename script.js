@@ -14,12 +14,14 @@ function login() {
 btnLogin.addEventListener('click', login);
 
 function toAble() {
-  if (checkAcordo.value !== 'on') {
+  if (checkAcordo.checked) {
+    btnSubmit.disabled = false;
+  } else {
     btnSubmit.disabled = true;
   }
 }
-checkAcordo.addEventListener('click', toAble);
-window.onload = function carrega() {
-  /* evento.preventDefault(); */
-  /* btnSubmit.addEventListener('click', submit); */
+
+window.onload = function carrega(evento) {
+  evento.preventDefault();
+  checkAcordo.addEventListener('click', toAble);
 };

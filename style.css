@@ -13,7 +13,6 @@
 }
 .trybewarts-login {
   display: flex;
-  /* justify-content: flex-end; */
 }
 
 main {
@@ -36,10 +35,6 @@ main {
 
 .input {
   width: 50%;
-}
-
-.select-container {
-  
 }
 
 hr {
