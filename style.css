@@ -1,4 +1,14 @@
-.trybewarts-login {
+
+/* .trybewarts-login {
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-end; */
+
+.header {
+  display: flex;
+  background-color: rgb(50, 167, 145);
+}
+
+.trybewarts-header-logo {
+  
+
 }
