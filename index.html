@@ -22,19 +22,81 @@
   </header>
   <main>
     <form id="evaluation-form" action="GET">
-      <input id="input-name" required type="text" name="nome" placeholder="Nome">
-      <input id="input-lastname" required type="text" name="ultimoNome" placeholder="Sobrenome">
-      <input id="input-email" type="email" name="email" placeholder="Email">
-      <select id="house">
-        <option id="gitnoria-house" value="Gitnória">Gitnória</option>
-        <option id="reactpuff-house" value="Reactpuff">Reactpuff</option>
-        <option id="corvinode-house" value="Corvinode">Corvinode</option>
-        <option id="pytherina-house" value="Pytherina">Pytherina</option>
-      </select>
-
-
-
-      
+      <div class="container">
+        <input id="input-name" required type="text" name="nome" placeholder="Nome" class="input-c">
+        <input id="input-lastname" required type="text" name="ultimoNome" placeholder="Sobrenome" class="input">
+      </div>
+      <div class="container a">
+        <input id="input-email" type="email" name="email" placeholder="Email" class="input">
+        <div class="select-container">
+          <label for="">Casa:</label>
+          <select id="house">
+            <option id="gitnoria-house" value="Gitnória">Gitnória</option>
+            <option id="reactpuff-house" value="Reactpuff">Reactpuff</option>
+            <option id="corvinode-house" value="Corvinode">Corvinode</option>
+            <option id="pytherina-house" value="Pytherina">Pytherina</option>
+          </select>
+        </div>
+      </div>
+      <hr>
+      <section class="container">
+        <div>
+          <label id="label-family" for="">Qual sua família?</label>
+          <div>
+            <input class="family" type="radio" name="family" value="Frontend" id="frontend">
+            <label for="Família Frontend">Família Frontend</label>
+          </div>
+          <div>
+            <input class="family" type="radio" name="family" value="Backend" id="backend">
+            <label for="Família Backend">Família Backend</label>
+          </div>
+          <div>
+            <input class="family" type="radio" name="family" value="FullStack" id="fullstack">
+            <label for="Família FullStack">Família FullStack</label>
+          </div>
+        </div>
+        <div>
+          <label id="label-content" for="">Qual conteúdo você está com mais vontade de aprender?</label>
+          <div>
+            <input class="learn" type="checkbox" value="HoFs">
+            <label for="HoFs">HoFs</label>
+            <input class="learn" type="checkbox" value="Jest">
+            <label for="Jest">Jest</label>
+            <input class="learn" type="checkbox" value="Promises">
+            <label for="Promises">Promises</label>
+            <input class="learn" type="checkbox" value="React">
+            <label for="React">React</label>
+            <input class="learn" type="checkbox" value="SQL">
+            <label for="SQL">SQL</label>
+            <input class="learn" type="checkbox" value="Python">
+            <label for="">Python</label>
+          </div>
+        </div>
+      </section>
+      <hr>
+      <section>
+        <label id="label-rate" for="">Como você avalia a Trybewarts?</label>
+        <input type="radio" name="rate" value="1">
+        <label>1</label>
+        <input type="radio" name="rate" value="2">
+        <label>2</label>
+        <input type="radio" name="rate" value="3">
+        <label>3</label>
+        <input type="radio" name="rate" value="4">
+        <label>4</label>
+        <input type="radio" name="rate" value="5">
+        <label>5</label>
+        <input type="radio" name="rate" value="6">
+        <label>6</label>
+        <input type="radio" name="rate" value="7">
+        <label>7</label>
+        <input type="radio" name="rate" value="8">
+        <label>8</label>
+        <input type="radio" name="rate" value="9">
+        <label>9</label>
+        <input type="radio" name="rate" value="10">
+        <label>10</label>
+      </section>
       <label for="texto" class="textarea">Deixe seu comentário:</label>
       <textarea id="textarea" name="texto" maxlength="500"></textarea>
       <label id="label-infos" for="acordo">Você concorda com o uso das informações acima?</label>
