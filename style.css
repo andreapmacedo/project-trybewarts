@@ -1,3 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+
 .header {
   display: flex;
   background-color: rgb(50, 167, 145);
@@ -20,7 +27,28 @@ main {
   display: flex;
   width: 675px;
   flex-direction: column;
+
 }
 #trybewarts-forms-logo {
   height: 500px;
+}
+
+.container {
+  display: flex;
+  padding: 10px;
+}
+
+.input {
+  width: 50%;
+}
+
+.select-container {
+  
+}
+
+hr {
+  width: 80%; 
+  margin-right: auto;
+  margin-left: auto;
+  border: 1px black solid;
 }

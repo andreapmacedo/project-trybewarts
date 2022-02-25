@@ -10,4 +10,4 @@ function login() {
     alert('Email ou senha inválidos.');
   }
 }
-btnLogin.addEventListener('click', login)
+btnLogin.addEventListener('click', login);
