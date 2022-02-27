@@ -1,9 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-
 }
-
 
 .header {
   display: flex;
@@ -11,6 +9,7 @@
   justify-content: space-around;
   align-items: center;
 }
+
 .trybewarts-login {
   display: flex;
 }
@@ -22,8 +21,8 @@ main {
   display: flex;
   width: 675px;
   flex-direction: column;
-
 }
+
 #trybewarts-forms-logo {
   height: 500px;
 }
@@ -38,7 +37,7 @@ main {
 }
 
 hr {
-  width: 80%; 
+  width: 80%;
   margin-right: auto;
   margin-left: auto;
   border: 1px black solid;
