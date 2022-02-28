@@ -43,3 +43,7 @@ hr {
   margin-left: auto;
   border: 1px black solid;
 }
+
+textarea {
+  resize: none
+}
