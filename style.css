@@ -29,7 +29,7 @@ main {
 }
 
 .container {
-  width: 500px;/* mexi*/ 
+  width: 500px;
   display: flex;
   padding: 10px;
 }
