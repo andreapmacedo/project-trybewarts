@@ -29,8 +29,13 @@ main {
 }
 
 .container {
+  width: 500px;/* mexi*/ 
   display: flex;
   padding: 10px;
+}
+
+.input-c {
+  width: 250px;
 }
 
 .input {

@@ -24,7 +24,7 @@
     <form id="evaluation-form" action="GET">
       <div class="container">
         <input id="input-name" required type="text" name="nome" placeholder="Nome" class="input-c">
-        <input id="input-lastname" required type="text" name="ultimoNome" placeholder="Sobrenome" class="input">
+        <input id="input-lastname" required type="text" name="ultimoNome" placeholder="Sobrenome" class="input-c">
       </div>
       <div class="container a">
         <input id="input-email" type="email" name="email" placeholder="Email" class="input">
@@ -58,18 +58,15 @@
         <div>
           <label id="label-content" for="">Qual conteúdo você está com mais vontade de aprender?</label>
           <div>
-            <input class="learn" type="checkbox" value="HoFs">
-            <label for="HoFs">HoFs</label>
-            <input class="learn" type="checkbox" value="Jest">
-            <label for="Jest">Jest</label>
-            <input class="learn" type="checkbox" value="Promises">
-            <label for="Promises">Promises</label>
-            <input class="learn" type="checkbox" value="React">
-            <label for="React">React</label>
-            <input class="learn" type="checkbox" value="SQL">
-            <label for="SQL">SQL</label>
-            <input class="learn" type="checkbox" value="Python">
-            <label for="">Python</label>
+            <label for="HoFs"><input id="HoFs" type="checkbox" name="techs" value="HoFs" class="subject">HoFs</label>
+            <label for="Jest"><input id="Jest" type="checkbox" name="techs" value="Jest" class="subject">Jest</label>
+            <label for="Promises"><input id="Promises" type="checkbox" name="techs" value="Promises"
+                class="subject">Promises</label>
+            <label for="React"><input id="React" type="checkbox" name="techs" value="React"
+                class="subject">React</label>
+            <label for="SQL"><input id="SQL" type="checkbox" name="techs" value="SQL" class="subject">SQL</label>
+            <label for="Python"><input id="Python" type="checkbox" name="techs" value="Python"
+                class="subject">Python</label>
           </div>
         </div>
       </section>
@@ -103,7 +100,7 @@
         <label id="counter"  for="">500</label>
         <br>
         <label id="label-infos" for="acordo">Você concorda com o uso das informações acima?</label>
-        <input id="agreement" type="checkbox" name="acordo">
+        <input id="agreement" type="checkbox" name="acordo" class="subject">
       </section>
       <button id="submit-btn" type="submit">Enviar</button>
     </form>
